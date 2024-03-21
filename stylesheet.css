@@ -336,7 +336,7 @@ a {
 
 .footer_wrapper {
   background: #2f2626 !important;
-  padding: 5% 0 5% 0 !important;
+  padding: 5% 0 0 0 !important;
 }
 
 .text {
@@ -1982,6 +1982,23 @@ button:hover {
   margin-right: 200px;
 }
 
+#ctopi {
+  padding-top: 100px;
+}
+
+#CContact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#textralbsec2 {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+
+
+
 @media screen and (max-width: 1100px) {
   .responsive-button {
     display: block !important;
@@ -1999,7 +2016,12 @@ button:hover {
   padding-right: 0 !important;
 }
 
-@media screen and (max-width: 800px) {
+#buttonroom2 {
+  color: rgb(0, 0, 1);
+  margin-right: 200px;
+}
+
+@media screen and (max-width: 850px) {
   .responsive-button {
     display: block !important;
     margin-right: 45px !important;
@@ -2010,7 +2032,7 @@ button:hover {
   }
 
   .hmt4 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .card0 {
@@ -2077,21 +2099,63 @@ button:hover {
   }
 
   #cover1 {
-    width: 635px;
+    width: unset;
     height: 250px;
   }
 
   .sec2 {
-    width: 350px;
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    overflow: auto !important;
+    margin: 0 auto;
+    padding-bottom: 40px !important;
+    text-align: center !important;
+  }
+
+  #ctopi {
+    padding-top: 0 !important;
   }
 
   .btn01 {
-    margin-right: 100px !important;
+    margin-right: 0 !important;
+    float: none !important;
   }
 
   #cover2>img {
     border: 2px solid black;
     width: 45% !important;
     margin: 1.66%;
+  }
+
+  .home-amenities {
+    overflow: auto;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  #textralbsec2 {
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  #buttonroom2 {
+    color: rgb(0, 0, 1);
+    margin-right: 0 !important;
+    float: none !important;
+  }
+
+  .engvb {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: auto
   }
 }
