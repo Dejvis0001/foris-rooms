@@ -60,6 +60,7 @@ body {
 }
 
 .section3-h {
+  background-color: transparent !important;
   margin: 0;
   padding: 0 0 25px 0;
   font-weight: 800;
@@ -127,10 +128,15 @@ html {
   background-blend-mode: multiply;
 }
 
+/* .carousel-caption {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+} */
 .carousel-caption {
-  top: 100px !important;
+  margin-bottom: 250px;
 }
-
 .link-btn1 {
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
@@ -736,7 +742,7 @@ h5 {
 
 .bg-images {
   width: 100vw;
-  height: 75vh;
+  height: 45vh;
   margin: 0;
   background-position: center;
   background-size: cover;
@@ -978,8 +984,8 @@ img {
 }
 
 .carobck {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
-    url("assets/images/outside.jpg") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("assets/images/15.jpg") center/cover no-repeat fixed;
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;
@@ -1571,7 +1577,7 @@ img {
 }
 
 #gallery-section {
-  background-color: #f4fbe8;
+
   padding: 50px 0;
   /* Add padding for spacing */
 }
@@ -1747,7 +1753,7 @@ img {
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
   background-blend-mode: multiply !important;
-  background: url("assets/images/Photo\ \(47\).jpg");
+  background: url("assets/images/14.jpg");
   height: 460px;
   margin-top: 20px;
 }
@@ -1898,19 +1904,16 @@ button:hover {
 .jumbotron {
   background-attachment: fixed;
   min-height: 50vh;
-  background-size: cover !important;
-  background-position: center !important;
-  background-attachment: fixed !important;
-  background-blend-mode: multiply !important;
-  background: url("assets/images/Photo\ \(53\).jpg");
-  background-color: rgba(0, 0, 0, 0);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  url("assets/images/18.jpg") bottom/cover no-repeat fixed;
   background-repeat: repeat;
   height: 450px;
   margin-bottom: 0px !important;
 }
 
 #banner {
-  background: url(assets/images/outside2.jpg) rgba(0, 0, 0, 0.6);
+  background: url(assets/images/16.jpg) rgba(0, 0, 0, 0.6);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover !important;
@@ -2156,7 +2159,7 @@ button:hover {
   }
 
   .carousel-section-image {
-    height: 40vh !important;
+    height: 75vh !important;
   }
 
   .bg-images {
